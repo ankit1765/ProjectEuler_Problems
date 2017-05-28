@@ -74,8 +74,6 @@ public class Problem_Eleven {
                 }
             }
         }
-
-
-        System.out.format("Max Product = %d", + largest);
+        System.out.format("The maximum sum is: %d", + largest);
     }
 }
