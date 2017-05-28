@@ -1,5 +1,7 @@
+//Question No. 2
+//Ankit Mittal
 
-public class Problemeleven {
+public class Problem_Eleven {
 
     public static void main(String [] args){
 
@@ -40,6 +42,17 @@ public class Problemeleven {
             }
         }
 
+        // Checking the products diagonally left
+        // Storing the largest product in variables largest
+        for(int i = 0; i < 17; i ++){
+            for(int j = 3; j < 20; j ++){
+                Product = Grid[i][j] * Grid[i + 1][j - 1] * Grid[i + 2][j  - 2] * Grid[i + 3][j - 3];
+                if(Product > largest){
+                    largest = Product;
+                }
+            }
+        }
+
         // Checking the products vertically
         // Storing the largest product in variables largest
         for(int i = 0; i < 17; i ++){
@@ -62,16 +75,7 @@ public class Problemeleven {
             }
         }
 
-        // Checking the products diagonally left
-        // Storing the largest product in variables largest
-        for(int i = 0; i < 17; i ++){
-            for(int j = 3; j < 20; j ++){
-                Product = Grid[i][j] * Grid[i + 1][j - 1] * Grid[i + 2][j  - 2] * Grid[i + 3][j - 3];
-                if(Product > largest){
-                    largest = Product;
-                }
-            }
-        }
+
         System.out.format("Max Product = %d", + largest);
     }
 }
