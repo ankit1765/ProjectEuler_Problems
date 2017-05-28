@@ -1,6 +1,6 @@
 //Question no. 7
 //Ankit Mittal
-//Solding a problem on Java for the first time!!
+//Solving a problem on Java for the first time!!
 
 
 public class findingtheprime {
@@ -30,9 +30,11 @@ public class findingtheprime {
 
     public static boolean isprime(long n) {
 
-        if (n < 2) return false;
+        if (n < 2)
+          return false;
 
-        else if (n == 2) return true;
+        else if (n == 2)
+          return true;
 
         for (int i = 2; i < Math.pow(n, 0.5) + 1; i++)
 
