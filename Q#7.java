@@ -2,7 +2,6 @@
 //Ankit Mittal
 //Solving a problem on Java for the first time!!
 
-
 public class findingtheprime {
 
     public static void main(String[] args) {
