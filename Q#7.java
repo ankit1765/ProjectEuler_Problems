@@ -3,7 +3,6 @@
 //Solving a problem on Java for the first time!!
 
 public class findingtheprime {
-
     public static void main(String[] args) {
 
         System.out.println(nthprime(10001));    /*finding the 10001th prime number*/
